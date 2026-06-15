@@ -1,0 +1,122 @@
+[
+  {
+    "id": "econ-001",
+    "content": "Congestion pricing in downtown zones has been shown to reduce traffic by 15-25%, with corresponding reductions in delivery times and logistics costs for businesses. A 10-year study of London's congestion pricing zone showed average cost savings of £2,500 per commercial vehicle annually, despite higher licensing costs. Economic analysis shows that congestion pricing generates 40-60% net revenue surplus after operational costs.",
+    "source": "Journal of Urban Economics",
+    "url": "https://example.com/congestion-pricing-economic-analysis",
+    "category": "economic-impact",
+    "author": "Dr. Michael Chen",
+    "date": "2024-01-15",
+    "relevance_keywords": ["congestion pricing", "traffic reduction", "business costs", "delivery efficiency", "revenue"],
+    "personas": ["Financial Analyst", "Transportation Engineer", "Real Estate Developer"],
+    "stance": "supports"
+  },
+  {
+    "id": "env-001",
+    "content": "Congestion pricing reduces vehicle miles traveled by 12-18%, resulting in equivalent reductions in carbon emissions and air pollutants (NOx, PM2.5). Health benefits from improved air quality include reduced respiratory hospitalizations and emergency room visits, estimated at $3-5 per dollar of congestion fee revenue. Meta-analysis of 15 cities with congestion pricing shows 22% reduction in urban greenhouse gas emissions in the priced zone.",
+    "source": "Environmental Health Perspectives",
+    "url": "https://example.com/congestion-emissions-health",
+    "category": "environmental",
+    "author": "Dr. Sarah Williams",
+    "date": "2024-02-20",
+    "relevance_keywords": ["emissions reduction", "air quality", "health benefits", "climate", "PM2.5", "NOx"],
+    "personas": ["Sustainability Consultant", "Climate Scientist", "Public Health Official"],
+    "stance": "supports"
+  },
+  {
+    "id": "equity-001",
+    "content": "Without complementary transit investments, congestion pricing disproportionately impacts low-income households who rely on driving for work and essential services. A study in Stockholm found that the poorest 20% of households spent 7% of income on congestion fees, compared to 1% for the wealthiest households. Cities implementing congestion pricing with equity safeguards found that dedicating 60-80% of revenue to transit improvements and low-income fare subsidies ensures equitable mobility outcomes.",
+    "source": "Applied Equity Research Center",
+    "url": "https://example.com/congestion-pricing-equity",
+    "category": "social-equity",
+    "author": "Dr. James Rodriguez",
+    "date": "2024-03-10",
+    "relevance_keywords": ["equity", "low-income", "transit access", "fairness", "regressive"],
+    "personas": ["Community Member", "Equity Advocate", "Social Worker"],
+    "stance": "opposes"
+  },
+  {
+    "id": "transit-001",
+    "content": "Congestion pricing success depends critically on robust alternative transportation infrastructure. Portland's congestion pricing pilot increased transit ridership by 31% in the priced zone, but only after adding 8 new bus routes and increasing frequency on existing corridors. Infrastructure designers emphasize that congestion pricing without simultaneous transit investment creates accessibility gaps. Optimal outcomes occur when transit capacity increases precede or coincide with price implementation.",
+    "source": "Transportation Research Board",
+    "url": "https://example.com/transit-infrastructure-requirements",
+    "category": "infrastructure",
+    "author": "Dr. Lisa Park",
+    "date": "2024-01-05",
+    "relevance_keywords": ["transit", "infrastructure", "bus routes", "accessibility", "mobility"],
+    "personas": ["Infrastructure Designer", "Transportation Engineer", "Community Member"],
+    "stance": "supports"
+  },
+  {
+    "id": "retail-001",
+    "content": "Initial retail sales data from cities with congestion pricing shows a nuanced pattern: downtown retail saw average sales declines of 3-7% in the first 18 months, but recovered to baseline within 36 months as consumer behavior adapted. However, specialized retail near transit stations outperformed expectations, with 12-18% growth. Key factor: cities that offered commercial vehicle exemptions and delivery windows saw faster retail stabilization. Small businesses reported 23% higher administrative costs during transition period.",
+    "source": "National Retail Federation",
+    "url": "https://example.com/retail-impact-analysis",
+    "category": "business-impact",
+    "author": "Robert Martinez",
+    "date": "2024-02-28",
+    "relevance_keywords": ["retail sales", "small business", "commerce", "delivery logistics"],
+    "personas": ["Retailer", "Financial Analyst"],
+    "stance": "neutral"
+  },
+  {
+    "id": "implementation-001",
+    "content": "Policy implementation best practices for congestion pricing: (1) Phase in pricing gradually over 12-24 months to allow behavioral adaptation; (2) Combine with substantial transit investment announced upfront; (3) Provide 6-month advanced notice and clear exemption categories (low-income, essential services); (4) Reserve 70%+ of revenue for public benefit; (5) Establish independent oversight board; (6) Plan for 25% reduction in peak-hour traffic, not more; (7) Include sunset review clause at 3-5 years. Cities ignoring these guidelines saw average 40% higher opposition and slower revenue recovery.",
+    "source": "Urban Policy Institute",
+    "url": "https://example.com/congestion-pricing-best-practices",
+    "category": "policy-design",
+    "author": "Prof. Angela Zhang",
+    "date": "2024-03-01",
+    "relevance_keywords": ["policy design", "implementation", "governance", "oversight", "best practices"],
+    "personas": ["Policy Advocate", "Infrastructure Designer", "Data Scientist"],
+    "stance": "supports"
+  },
+  {
+    "id": "risk-001",
+    "content": "Risks and challenges of congestion pricing implementation: (1) Revenue volatility - demand changes unpredictably; (2) Public backlash if transit alternatives perceived as insufficient; (3) Equity concerns if exemptions poorly designed; (4) Technological challenges (billing, enforcement); (5) Potential for congestion displacement to surrounding areas; (6) Legal challenges on regressive taxation grounds. Analysis of 20 failed implementations suggests that inadequate stakeholder engagement (45%), insufficient transit funding (40%), and poor exemption design (35%) were primary failure factors. Success rate improves dramatically with 18+ months preparation and multi-stakeholder consensus.",
+    "source": "Cambridge Policy Review",
+    "url": "https://example.com/congestion-pricing-risks",
+    "category": "risk-analysis",
+    "author": "Dr. Helen Foster",
+    "date": "2024-03-15",
+    "relevance_keywords": ["risk", "challenges", "implementation", "failure", "stakeholder engagement"],
+    "personas": ["Policy Advocate", "Community Member"],
+    "stance": "opposes"
+  },
+  {
+    "id": "health-001",
+    "content": "Public health officials report significant health co-benefits from congestion pricing-induced traffic reduction. A 5-year study in Singapore following congestion charge implementation found: 31% decrease in respiratory hospitalizations, 18% reduction in cardiovascular emergency visits, and 12% improvement in childhood asthma outcomes. The health benefits alone were estimated to offset 60% of policy implementation costs through reduced healthcare expenditures and productivity gains.",
+    "source": "The Lancet - Global Health",
+    "url": "https://example.com/health-benefits-congestion",
+    "category": "health-impact",
+    "author": "Dr. Margaret Thompson",
+    "date": "2024-02-10",
+    "relevance_keywords": ["health", "respiratory", "pollution", "public health", "emissions"],
+    "personas": ["Public Health Official", "Sustainability Consultant", "Equity Advocate"],
+    "stance": "supports"
+  },
+  {
+    "id": "tech-001",
+    "content": "Technology solutions for congestion pricing have advanced significantly. Modern systems use dynamic pricing algorithms that adjust fees based on real-time traffic conditions, improving economic efficiency compared to fixed-rate models. Electronic payment systems reduce administrative overhead by 40%, and real-time data analytics enable rapid policy optimization. However, technology implementation requires 12-18 months and significant upfront investment ($15-30M for mid-sized cities), which can delay implementation and strain municipal budgets.",
+    "source": "IEEE Intelligent Transportation Systems",
+    "url": "https://example.com/congestion-pricing-technology",
+    "category": "technology-implementation",
+    "author": "Prof. David Kumar",
+    "date": "2024-03-05",
+    "relevance_keywords": ["technology", "dynamic pricing", "enforcement", "data analytics", "systems"],
+    "personas": ["Tech Entrepreneur", "Data Scientist", "Infrastructure Designer"],
+    "stance": "neutral"
+  },
+  {
+    "id": "developer-001",
+    "content": "Real estate developers report mixed impacts of congestion pricing on property markets. In the short term (0-2 years), properties near transit stations in priced zones appreciate 8-12% as developers anticipate transit-oriented development opportunities. However, properties in car-dependent areas outside the priced zone see depreciation of 5-8%. Long-term analysis (5-10 years) shows net positive effects in priced zones as transit investment matures, with average property appreciation of 18-22% relative to control areas.",
+    "source": "Urban Land Institute",
+    "url": "https://example.com/real-estate-congestion-pricing",
+    "category": "real-estate",
+    "author": "Jennifer Lee",
+    "date": "2024-01-20",
+    "relevance_keywords": ["real estate", "property value", "development", "transit-oriented", "investment"],
+    "personas": ["Real Estate Developer", "Financial Analyst"],
+    "stance": "supports"
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "id": "persona-001",
+    "name": "Financial Analyst",
+    "role": "Financial Analyst",
+    "focus": "economic impacts, business activity, and market incentives",
+    "evidence_topics": ["urban economics", "transport reports", "downtown commerce"],
+    "default_stance": "conditional support",
+    "key_issue": "economic transition risk",
+    "category": "core"
+  },
+  {
+    "id": "persona-002",
+    "name": "Sustainability Consultant",
+    "role": "Sustainability Consultant",
+    "focus": "pollution, climate, and long-term ecological health",
+    "evidence_topics": ["air quality studies", "climate impact reports", "health costs"],
+    "default_stance": "support",
+    "key_issue": "air quality and health",
+    "category": "core"
+  },
+  {
+    "id": "persona-003",
+    "name": "Infrastructure Designer",
+    "role": "Infrastructure Designer",
+    "focus": "mobility, land use, and city design",
+    "evidence_topics": ["transit planning", "street design", "land use"],
+    "default_stance": "conditional support",
+    "key_issue": "accessibility and transport design",
+    "category": "core"
+  },
+  {
+    "id": "persona-004",
+    "name": "Community Member",
+    "role": "Community Member",
+    "focus": "everyday convenience, equity, and local quality of life",
+    "evidence_topics": ["accessibility studies", "equity reports", "mobility surveys"],
+    "default_stance": "opposed without better access",
+    "key_issue": "equity and mobility",
+    "category": "core"
+  },
+  {
+    "id": "persona-005",
+    "name": "Retailer",
+    "role": "Retailer",
+    "focus": "customer traffic, operating costs, and neighborhood vitality",
+    "evidence_topics": ["local commerce", "delivery logistics", "customer behavior"],
+    "default_stance": "cautious",
+    "key_issue": "delivery logistics and foot traffic",
+    "category": "core"
+  },
+  {
+    "id": "persona-006",
+    "name": "Public Health Official",
+    "role": "Public Health Official",
+    "focus": "community health outcomes and disease risk",
+    "evidence_topics": ["health impact assessments", "epidemiology", "hospital capacity"],
+    "default_stance": "support",
+    "key_issue": "public health safety",
+    "category": "extended"
+  },
+  {
+    "id": "persona-007",
+    "name": "Transportation Engineer",
+    "role": "Transportation Engineer",
+    "focus": "traffic flow, capacity, and roadway optimization",
+    "evidence_topics": ["traffic modeling", "roadway design", "signal timing"],
+    "default_stance": "conditional support",
+    "key_issue": "network efficiency",
+    "category": "extended"
+  },
+  {
+    "id": "persona-008",
+    "name": "Climate Scientist",
+    "role": "Climate Scientist",
+    "focus": "carbon emissions and climate resilience",
+    "evidence_topics": ["climate projections", "emissions inventories", "resilience studies"],
+    "default_stance": "support",
+    "key_issue": "climate risk",
+    "category": "extended"
+  },
+  {
+    "id": "persona-009",
+    "name": "Equity Advocate",
+    "role": "Equity Advocate",
+    "focus": "fair access and social justice",
+    "evidence_topics": ["equity audits", "community engagement", "accessibility"],
+    "default_stance": "support",
+    "key_issue": "social inclusion",
+    "category": "extended"
+  },
+  {
+    "id": "persona-010",
+    "name": "Real Estate Developer",
+    "role": "Real Estate Developer",
+    "focus": "property value, development opportunity, and financing",
+    "evidence_topics": ["market studies", "zoning analysis", "investment trends"],
+    "default_stance": "conditional support",
+    "key_issue": "development return",
+    "category": "extended"
+  },
+  {
+    "id": "persona-011",
+    "name": "Data Scientist",
+    "role": "Data Scientist",
+    "focus": "quantitative analysis, predictive modeling, and data-driven insights",
+    "evidence_topics": ["statistical analysis", "modeling reports", "data visualization"],
+    "default_stance": "evidence-based",
+    "key_issue": "analytical rigor",
+    "category": "extended"
+  },
+  {
+    "id": "persona-012",
+    "name": "Community Organizer",
+    "role": "Community Organizer",
+    "focus": "grassroots movements, community empowerment, and collective action",
+    "evidence_topics": ["community surveys", "civic engagement", "social movements"],
+    "default_stance": "support with community input",
+    "key_issue": "community agency",
+    "category": "extended"
+  },
+  {
+    "id": "persona-013",
+    "name": "Tech Entrepreneur",
+    "role": "Tech Entrepreneur",
+    "focus": "innovation, disruption, and technological advancement",
+    "evidence_topics": ["emerging technologies", "startup ecosystems", "digital transformation"],
+    "default_stance": "support",
+    "key_issue": "technological opportunity",
+    "category": "extended"
+  },
+  {
+    "id": "persona-014",
+    "name": "Policy Advocate",
+    "role": "Policy Advocate",
+    "focus": "regulation, governance, and policy frameworks",
+    "evidence_topics": ["policy analysis", "governance models", "regulatory frameworks"],
+    "default_stance": "conditional support",
+    "key_issue": "policy alignment",
+    "category": "extended"
+  },
+  {
+    "id": "persona-015",
+    "name": "Social Worker",
+    "role": "Social Worker",
+    "focus": "vulnerable populations, social welfare, and human services",
+    "evidence_topics": ["social impact assessments", "welfare outcomes", "service accessibility"],
+    "default_stance": "support",
+    "key_issue": "social welfare impact",
+    "category": "extended"
+  },
+  {
+    "id": "persona-016",
+    "name": "Law Enforcement Officer",
+    "role": "Law Enforcement Officer",
+    "focus": "public safety, crime prevention, and security",
+    "evidence_topics": ["crime statistics", "safety reports", "policing strategies"],
+    "default_stance": "cautious",
+    "key_issue": "public safety",
+    "category": "extended"
+  },
+  {
+    "id": "persona-017",
+    "name": "Media Representative",
+    "role": "Media Representative",
+    "focus": "public communication, transparency, and narrative framing",
+    "evidence_topics": ["communication studies", "news coverage", "public discourse"],
+    "default_stance": "neutral",
+    "key_issue": "public messaging",
+    "category": "extended"
+  },
+  {
+    "id": "persona-018",
+    "name": "Cultural Advocate",
+    "role": "Cultural Advocate",
+    "focus": "arts, culture, and community identity",
+    "evidence_topics": ["cultural impact studies", "heritage preservation", "creative expression"],
+    "default_stance": "support",
+    "key_issue": "cultural preservation",
+    "category": "extended"
+  },
+  {
+    "id": "persona-019",
+    "name": "Senior Citizen Advocate",
+    "role": "Senior Citizen Advocate",
+    "focus": "aging population needs, accessibility, and intergenerational equity",
+    "evidence_topics": ["aging studies", "accessibility research", "demographic analysis"],
+    "default_stance": "support with accessibility",
+    "key_issue": "accessibility for all ages",
+    "category": "extended"
+  }
+]

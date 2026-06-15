@@ -1,0 +1,22 @@
+# Web Framework
+Flask>=2.3.4
+flask-cors>=4.0.0
+
+# Azure Services
+azure-search-documents>=11.4.0
+azure-storage-blob>=12.14.1
+
+# LLM Integration
+openai>=1.0.0
+requests>=2.31.0
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Document Processing
+python-docx>=0.8.11
+PyPDF2>=3.0.0
+python-pptx>=0.6.23
+
+# Development & Testing
+pytest>=8.4.0
