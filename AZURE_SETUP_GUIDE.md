@@ -17,6 +17,10 @@ This guide explains how to set up Azure Search to store and retrieve personas fo
    $env:AZURE_SEARCH_ENDPOINT = "https://your-search-service.search.windows.net"
    $env:AZURE_SEARCH_KEY = "your-api-key"
    $env:AZURE_SEARCH_INDEX = "perspective-ai-index"
+   $env:AZURE_SEARCH_INDEX = "perspective-ai-evidence"
+   $env = "https://api.deepseek.com"
+   $env = "your-api-key"
+   $env = "deepseek-chat"
    ```
 
 ---
@@ -203,13 +207,7 @@ The system will automatically fall back to the 5 core personas if Azure Search i
 
 ---
 
-## Demo Video Setup
 
-**For recording with extended personas**:
-1. Run `python scripts/setup_index.py` (one-time)
-2. Run `python scripts/upload_personas.py` (one-time)
-3. Run debate with `python web.py --real`
-4. Record browser showing the 19 personas available
 
 ---
 
@@ -220,13 +218,21 @@ The system will automatically fall back to the 5 core personas if Azure Search i
 $env:AZURE_SEARCH_ENDPOINT = "https://your-service.search.windows.net"
 $env:AZURE_SEARCH_KEY = "your-key"
 $env:AZURE_SEARCH_INDEX = "perspective-ai-index"
+$env:AZURE_SEARCH_INDEX = "perspective-ai-evidence"
+$env = "https://api.deepseek.com"
+$env = "your-api-key"
+$env = "deepseek-chat"
 
 # Setup index
 python scripts/setup_index.py
+python scripts/setup_setup_evidence_index.py
 
 # Upload personas
 python scripts/upload_personas.py
+python scripts/upload_evidence.py
 
 # Run debate with real personas
-python -m agent.main --query "Should the city implement congestion pricing?" --mode real
+py web.py --real
+py web.py --offline
+py web.py --h for more info
 ```
