@@ -441,14 +441,6 @@ if not used_fallback:
 | LLM not responding | Verify API key and endpoint configuration |
 
 ---
-
-## 📖 Documentation
-
-- **[QUICK_START.md](QUICK_START.md)** - 3-minute setup
-- **[COMPLETE_WORKFLOW.md](COMPLETE_WORKFLOW.md)** - Full workflow reference
-- **[EVIDENCE_DATA_GUIDE.md](EVIDENCE_DATA_GUIDE.md)** - Evidence field reference
-- **[AZURE_SETUP_GUIDE.md](AZURE_SETUP_GUIDE.md)** - Detailed Azure configuration
-- **[TWO_INDEX_ARCHITECTURE.md](TWO_INDEX_ARCHITECTURE.md)** - Architecture explanation
 - **[COMPLETE_SETUP_GUIDE.md](COMPLETE_SETUP_GUIDE.md)** - Full setup instructions
 
 ---
