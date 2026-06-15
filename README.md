@@ -64,22 +64,37 @@ Given a policy question, the system:
 ### Setup
 
 ```powershell
-# 1. Set Azure credentials
+# 1. Configure Azure Search (Foundry IQ Retrieval)
+
 $env:AZURE_SEARCH_ENDPOINT = "https://your-service.search.windows.net"
 $env:AZURE_SEARCH_KEY = "your-api-key"
-$env:AZURE_SEARCH_INDEX = "perspective-ai-evidence"
+$env:AZURE_SEARCH_PERSONAS_INDEX = "perspective-ai-index"
+$env:AZURE_SEARCH_EVIDENCE_INDEX = "perspective-ai-evidence"
 
-# 2. Create evidence index (one-time)
+# 2. Configure LLM Backend (Required)
+
+# Example: DeepSeek
+
+$env:AZURE_OPENAI_ENDPOINT = "https://api.deepseek.com"
+$env:AZURE_OPENAI_KEY = "your-api-key"
+$env:AZURE_OPENAI_MODEL = "deepseek-chat"
+
+# 3. Create evidence index (one-time)
+
 python scripts/setup_evidence_index.py
 
-# 3. Upload evidence documents
+# 4. Upload evidence documents
+
 python scripts/upload_evidence.py
 
-# 4. Start web UI
+# 5. Start web UI
+
 python web.py --real
 
-# 5. Open browser
+# 6. Open browser
+
 # http://127.0.0.1:5000
+
 ```
 
 ### Use via Web UI
@@ -524,9 +539,6 @@ The system works with any policy question. Examples:
 
 ---
 
-## 📜 License
-
-[Your License Here]
 
 ---
 
