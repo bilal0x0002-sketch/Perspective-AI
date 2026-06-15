@@ -445,30 +445,7 @@ if not used_fallback:
 
 ---
 
-## 🎬 Demo Workflow
 
-```powershell
-# 1. Setup (first time only)
-$env:AZURE_SEARCH_ENDPOINT = "https://..."
-$env:AZURE_SEARCH_KEY = "..."
-$env:AZURE_SEARCH_INDEX = "perspective-ai-evidence"
-
-python scripts/setup_evidence_index.py
-python scripts/upload_evidence.py
-
-# 2. Start server
-python web.py --real
-
-# 3. Open browser
-# http://127.0.0.1:5000
-
-# 4. Enter question and watch debate
-
-# 5. To add more evidence:
-#    - Edit data/evidence.json
-#    - Run python scripts/upload_evidence.py
-#    - Refresh browser
-```
 
 ---
 
